@@ -21,13 +21,15 @@
             </div>
             <div class="row mt-4">
                 <div class="col">
-                    <button type="button" class="btn btn-primary" id="wake-up">wake up</button>
+                    <!--Step 2: Make it so when the "wake-up button" is clicked, then function from step 1 is called-->
+                    <button type="button" class="btn btn-primary" id="wake-up" onclick="wakeUp()">wake up</button>
                 </div>
                 <div class="col">
-                    <button type="button" class="btn btn-primary" id="sleep">sleep</button>
+                    <!--Step 4: Make it so when the "sleep button" is clicked, then function from step 3 is called-->
+                    <button type="button" class="btn btn-primary" id="sleep" onclick="sleep()"">sleep</button>
                 </div>
                 <div class="col">
-                    <p><b>happiness:</b></p><input placeholder="0.5" id="happiness"/>
+                    <p><b>happiness:</b></p><input placeholder="0.5" id="happiness" onclick="sendHappiness()"/>
                     <button type="button" class="btn btn-success mt-3">send happiness</button>
                 </div>
             </div>
